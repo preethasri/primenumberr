@@ -36,6 +36,8 @@ function clickEventHandler() {
         outputDiv.innerHTML = "please enter a number"
     } else if (date > maxdate || month > maxmonth) {
         outputDiv.innerHTML = `date should not exceed ${maxdate} and month should not exceed ${maxmonth}`;
+    } else if (input == 1) {
+        outputDiv.innerHTML = "The number is neither prime not composite number"
     } else {
         checkprime(input)
     }

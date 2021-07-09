@@ -1,26 +1,29 @@
 body {
-    background-image: url("finalbg.jpeg");
+    background-image: url("bgimagefinal.jpeg");
     background-size: cover;
     background-attachment: fixed;
 }
 
 .container {
-    width: 600px;
+    width: 500px;
     height: 80vh;
-    background-color: white;
-    margin: auto;
+    background-color: #FECD1A;
     border-color: black;
+    margin: 5%;
     border-radius: 15%;
     text-align: center;
     box-shadow: 15px 15px 15px #888888;
+    position: fixed;
+    top: 5%;
+    left: 30%;
 }
 
 #input,
 #input2 {
-    width: 50%;
+    width: 60%;
     height: 20%;
     padding: 1rem 1rem;
-    background-color: #FEF08A;
+    background-color: white;
     text-align: center;
     margin: auto;
     display: grid;
@@ -41,7 +44,7 @@ h1 {
     width: 15vh;
     height: 10vh;
     text-align: center;
-    background-color: ;
+    background-color: white;
     margin: auto;
     border-radius: 0.5rem;
     border-color: #6B72;

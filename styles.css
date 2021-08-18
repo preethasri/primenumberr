@@ -24,6 +24,7 @@ body {
     text-align: center;
     margin: auto;
     display: grid;
+    width: 15rem;
 }
 
 ::placeholder {
